@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+    margin: 0; 
+    padding: 0; 
+}
+
+#map{ 
+    height: 100%; 
+}
+
+ul{
+    padding-left:10px;
+}
+
+li{
+    color:#f1593a;
+    height: 35px;
+    width: 100%;
+    padding-top: 5px;
+    list-style: none;
+    font-size: 20px;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+
+}
+
+li:hover{
+    background-color: #181a1b;
+    cursor: pointer;
+}
+.hamburger_icon{
+   display: none; 
+}
+
+
+@media (max-width: 500px) {
+    .hamburger_icon{
+        display: inline; 
+
+    }
+
+.hamburger_icon span {
+    display: inline;
+    width: 19px;
+    height: 3px;
+    margin: 4px 0;
+    background: rgb(0,0,0);
+    z-index: 99;
+}
+
+.container_list{
+    display: none;
+}
+
+.expand {
+    display: block !important; 
+}
+
+}
+#mapDiv {
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+      }
+      .nav{
+        list-style: none;
+        padding: 0;
+      }
+      .item{
+        padding: 1em  2em;
+        border-bottom: 1px solid #fff;
+        margin: 0.3em;
+      }
+      #map {
+      height: 800px;
+      width: 76%;
+      right: 0px;
+      }
+.bold{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
